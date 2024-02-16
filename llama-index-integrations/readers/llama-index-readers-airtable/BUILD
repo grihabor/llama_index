@@ -1,3 +1,4 @@
+__defaults__(all=dict(resolve="llama-index-readers-airtable"))
 poetry_requirements(
     name="poetry",
 )

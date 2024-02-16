@@ -1,3 +1,4 @@
+__defaults__(all=dict(resolve="llama-index-packs-neo4j-query-engine"))
 poetry_requirements(
     name="poetry",
 )
