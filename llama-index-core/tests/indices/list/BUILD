@@ -1,5 +1,3 @@
-python_sources()
-
 python_tests(
     name="tests",
     dependencies=[
@@ -7,3 +5,5 @@ python_tests(
         "llama-index-core/tests/indices/list:list",
     ],
 )
+
+python_sources()
