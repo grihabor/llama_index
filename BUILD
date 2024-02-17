@@ -1,12 +1,23 @@
 __defaults__(
     all=dict(
         resolve=parametrize(
+            "readers-stripe-docs",
+            "readers-asana",
+            "callbacks-argilla",
             "callbacks-arize-phoenix",
             "default",
             "packs-arize-phoenix-query-engine",
-            "readers-semanticscholar",
+            "packs-recursive-retriever",
+            "readers-docugami",
+            "readers-hatena-blog",
+            "readers-imdb-review",
             "readers-papers",
+            "readers-semanticscholar",
+            "readers-web",
+            "readers-whatsapp",
+            "readers-zep",
             "tools-arxiv",
+            "vector-stores-zep",
         )
     )
 )

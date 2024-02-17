@@ -1,3 +1,4 @@
+__defaults__(all=dict(resolve="readers-whatsapp"))
 poetry_requirements(
     name="poetry",
 )
