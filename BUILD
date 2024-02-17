@@ -1,9 +1,12 @@
 __defaults__(
     all=dict(
         resolve=parametrize(
+            "callbacks-arize-phoenix",
             "default",
-            "arize-phoenix-2",
-            "arize-phoenix-3",
+            "packs-arize-phoenix-query-engine",
+            "readers-semanticscholar",
+            "readers-papers",
+            "tools-arxiv",
         )
     )
 )

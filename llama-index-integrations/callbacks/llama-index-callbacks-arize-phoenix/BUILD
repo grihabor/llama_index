@@ -1,2 +1,2 @@
-__defaults__(all=dict(resolve="arize-phoenix-3"))
+__defaults__(all=dict(resolve="callbacks-arize-phoenix"))
 poetry_requirements(name="poetry", module_mapping={"arize-phoenix": ["phoenix"]})

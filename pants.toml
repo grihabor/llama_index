@@ -22,8 +22,11 @@ default_resolve = "default"
 [python.resolves]
 default = "3rdparty/python/default.lock"
 legacy = "3rdparty/python/legacy.lock"
-arize-phoenix-2 = "3rdparty/python/arize-phoenix-2.lock"
-arize-phoenix-3 = "3rdparty/python/arize-phoenix-3.lock"
+callbacks-arize-phoenix = "3rdparty/python/callbacks-arize-phoenix.lock"
+packs-arize-phoenix-query-engine = "3rdparty/python/packs-arize-phoenix-query-engine.lock"
+readers-papers = "3rdparty/python/readers-papers.lock"
+readers-semanticscholar = "3rdparty/python/readers-semanticscholar.lock"
+tools-arxiv = "3rdparty/python/tools-arxiv.lock"
 
 [python-infer]
 ambiguity_resolution = "by_source_root"
