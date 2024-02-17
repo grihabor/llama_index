@@ -15,7 +15,7 @@ pants_version = "2.19.0"
 config = "./pyproject.toml"
 
 [python]
-interpreter_constraints = ["==3.10.*", "==3.8.*", "==3.9.*"]
+interpreter_constraints = ["==3.10.*"]
 enable_resolves = true
 default_resolve = "python-default"
 
