@@ -28,9 +28,9 @@ version = "0.1.1"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.12"
-llama-index-core = "^0.10.1"
+# llama-index-core = "^0.10.1"
 llamaapi = "^0.1.36"
-llama-index-llms-openai = "^0.1.1"
+# llama-index-llms-openai = "^0.1.1"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "8.10.0"

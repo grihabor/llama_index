@@ -32,7 +32,7 @@ version = "0.1.2"
 python = ">=3.9,<3.12"
 kaleido = "0.2.1"
 vanna = "0.0.36"
-llama-index-core = "^0.10.1"
+# llama-index-core = "^0.10.1"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "8.10.0"
