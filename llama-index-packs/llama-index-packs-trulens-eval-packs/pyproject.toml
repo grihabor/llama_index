@@ -30,7 +30,7 @@ version = "0.1.2"
 
 [tool.poetry.dependencies]
 python = ">3.9.7,<3.12"
-llama-index-core = "^0.10.1"
+# llama-index-core = "^0.10.1"
 trulens-eval = "^0.21.0"
 
 [tool.poetry.group.dev.dependencies]
