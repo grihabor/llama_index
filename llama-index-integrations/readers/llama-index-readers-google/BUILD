@@ -8,6 +8,3 @@ poetry_requirements(
 )
 
 
-python_sources(
-    interpreter_constraints=["==3.10.*"],
-)
