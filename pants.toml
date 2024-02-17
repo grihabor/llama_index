@@ -18,6 +18,7 @@ config = "./pyproject.toml"
 interpreter_constraints = ["==3.10.*"]
 enable_resolves = true
 default_resolve = "python-default"
+tailor_requirements_targets = false
 
 [python-infer]
 ambiguity_resolution = "by_source_root"
@@ -28,7 +29,7 @@ root_patterns = ["*tests", "/"]
 
 [python.resolves]
 llama-index-cli = "3rdparty/python/llama-index-cli.lock"
-llama-index-core = "3rdparty/python/llama-index-core.lock"
+# llama-index-core = "3rdparty/python/llama-index-core.lock"
 llama-index-experimental = "3rdparty/python/llama-index-experimental.lock"
 llama-index-finetuning = "3rdparty/python/llama-index-finetuning.lock"
 llama-index-agent-openai = "3rdparty/python/llama-index-agent-openai.lock"

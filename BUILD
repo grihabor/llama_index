@@ -2,7 +2,7 @@ __defaults__(
     all=dict(
         resolve=parametrize(
             "llama-index-cli",
-            "llama-index-core",
+            # "llama-index-core",
             "llama-index-experimental",
             "llama-index-finetuning",
             "llama-index-agent-openai",
