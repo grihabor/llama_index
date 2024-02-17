@@ -15,7 +15,15 @@ remote_store_address = "grpc://44.204.50.6:9092"
 config = "./pyproject.toml"
 
 [python]
-interpreter_constraints = ["==3.10.*", "==3.8.*", "==3.9.*"]
+interpreter_constraints = ["==3.10.*"]
+enable_resolves = true
+default_resolve = "default"
+
+[python.resolves]
+default = "3rdparty/python/default.lock"
+legacy = "3rdparty/python/legacy.lock"
+arize-phoenix-2 = "3rdparty/python/arize-phoenix-2.lock"
+arize-phoenix-3 = "3rdparty/python/arize-phoenix-3.lock"
 
 [python-infer]
 ambiguity_resolution = "by_source_root"

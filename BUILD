@@ -1,3 +1,12 @@
+__defaults__(
+    all=dict(
+        resolve=parametrize(
+            "default",
+            "arize-phoenix-2",
+            "arize-phoenix-3",
+        )
+    )
+)
 poetry_requirements(
     name="root",
 )
