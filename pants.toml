@@ -6,10 +6,10 @@ backend_packages = [
     "pants.backend.python.typecheck.mypy",
 ]
 pants_version = "2.19.0"
-remote_cache_read = true
-remote_cache_write = true
-remote_instance_name = "main"
-remote_store_address = "grpc://44.204.50.6:9092"
+# remote_cache_read = true
+# remote_cache_write = true
+# remote_instance_name = "main"
+# remote_store_address = "grpc://44.204.50.6:9092"
 
 [black]
 config = "./pyproject.toml"
@@ -422,4 +422,4 @@ llama-index-packs-vanna = "3rdparty/python/llama-index-packs-vanna.lock"
 llama-index-packs-vectara-rag = "3rdparty/python/llama-index-packs-vectara-rag.lock"
 llama-index-packs-voyage-query-engine = "3rdparty/python/llama-index-packs-voyage-query-engine.lock"
 llama-index-packs-zephyr-query-engine = "3rdparty/python/llama-index-packs-zephyr-query-engine.lock"
-python-default = "3rdparty/python/..lock"
+python-default = "3rdparty/python/python-default.lock"
